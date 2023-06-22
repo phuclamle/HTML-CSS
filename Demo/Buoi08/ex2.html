@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .out{
+            width: 200px;
+            height: 200px;
+            border: 1px solid;
+        }
+        .rectangle{
+            transition: 5s;
+            width: 200px;
+            height: 200px;
+            background-color: blue;
+            
+        }
+        .out:hover .rectangle{
+            /* transform: translateX(300px) translateY(300px); */
+            /* tăng kích thước lên 1.5 lần */
+            /* transform: scale(1.5); */
+            /* xoay  */
+            transform: rotate(360deg) translateX(360px);
+        }
+        
+            
+    </style>
+</head>
+<body>
+    <!-- 
+        1 div w: 200; h:200 border 1px solid Khi hover lên:
+        -có 1 dòng chữ từ đưới đi lên trong 0,5s
+     -->
+     <div class="out">
+        <div class="rectangle">
+        </div>
+     </div>
+</body>
+</html>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+     .div2{
+        display: none;
+        background-color: blue;
+        width: 250px;
+        height:200px ;
+        position: absolute;
+        left: 100px;
+     }
+     .div1{
+        display: inline-block;
+        background-color: red;
+        text-align: center;
+        line-height: 200px;
+        width: 500px;
+        height: 200px;
+        position: relative;
+     }
+     .div1:hover .div2{
+        display: inline-block;
+        transition: 4s;
+     }
+    </style>
+</head>
+<body>
+    <div class="div1">
+             Hello
+        <div class="div2">
+        </div>
+    </div>
+</body>
+</html>

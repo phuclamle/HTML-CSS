@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        /* p là con của thẻ div có class box */
+        .box p{
+            color: yellow;
+        }
+        /* p là con trực tiếp của thẻ div có class box */
+        .box > p{
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!-- CSS Combinators là gì? Cách chúng ta viết css cho các thẻ html có liên quan đến nhau -->
+    <div class="box">
+        <p>Hello</p>
+        <p>Hoho</p>
+        <p>Haha</p>
+        <div>
+            <p>Haha</p>
+        </div>
+    </div>
+</body>
+</html>
