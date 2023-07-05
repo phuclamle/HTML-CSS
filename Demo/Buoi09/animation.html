@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .div1, .div2{
+            width: 300px;
+            height: 300px;
+            background-color: red;
+            animation-name: a;
+            animation-duration: 2s;
+            animation-fill-mode: forwards;
+            opacity: 0;
+        }
+        .div2{
+            background-color: blue;
+            animation-name: a;
+            animation-duration: 2s;
+            animation-delay: 2s;
+        }
+        @keyframes a{
+            0%{
+                opacity: 0;
+            }
+            100%{
+                opacity: 1;
+            }
+        }
+
+    </style>
+</head>
+<body>
+    <!-- 
+        1.Trang web trắng, sau 1s hiện 1 hình vuông đỏ. 
+        Sau 2s thì hiện thêm 1 hình vuông xanh
+        opacity =1 hiện;
+        opacity =0 ẩn;
+     -->
+     <div class="div1"></div>
+     <div class="div2"></div>
+</body>
+</html>

@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .box{
+            display: grid;
+            grid-template-columns: 25% 25%; 
+            /* giá trị đầu là hàng 1 giá trị sau là hàng 2 */
+             grid-template-rows: 300px;
+            grid-gap: 25px;
+            justify-content: space-between;
+        }   
+        .a{
+            border: 1px solid;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="box">
+        <div class="a">A</div>
+        <div class="a">B</div>
+         
+
+    </div>
+
+    <!-- display: grid quy định 1 thẻ có thể điều chỉnh hiển thị cho các thẻ bên trong
+        thay vì phải width, height, margin, float cho .a
+        thì chúng ta có thể dùng các thuộc tính liên quan gird ở thẻ cha của .a
+        -Khi đặt 1 thẻ là grid thì thẻ này quản lý các thẻ bên trong như 1 cái lưới:
+            +Quy định số hàng, số cột
+            +Độ rộng 1 cột, 1 hàng: grid-template-columns,  grid-template-rows
+            -justify-content: căn chỉnh vị trí theo chiều ngang thành các con(space-around, space-between, start, end)
+            -align-items: căn chỉnh vị trí theo chiều dọc thành các con(space-around, space-between, start, end)
+            -
+      --> 
+</body>
+</html>

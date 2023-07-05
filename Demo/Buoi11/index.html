@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            box-sizing: border-box;
+        }
+
+        .col-1 {
+            width: 8.33%;
+        }
+
+        .col-2 {
+            width: 16.66%;
+        }
+
+        .col-3 {
+            width: 25%;
+        }
+
+        .col-4 {
+            width: 33.33%;
+        }
+
+        .col-5 {
+            width: 41.66%;
+        }
+
+        .col-6 {
+            width: 50%;
+        }
+
+        .col-7 {
+            width: 58.33%;
+        }
+
+        .col-8 {
+            width: 66.66%;
+        }
+
+        .col-9 {
+            width: 75%;
+        }
+
+        .col-10 {
+            width: 83.33%;
+        }
+
+        .col-11 {
+            width: 91.66%;
+        }
+
+        .col-12 {
+            width: 100%;
+        }
+
+        [class*="col-"] {
+            float: left;
+            padding: 15px;
+            border: 1px solid red;
+        }
+        .logo, .banner {
+            height: 150px;
+        }
+        .div2{
+            margin-top:  20px;
+        }
+        .div3com{
+            background-color: bisque;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- logo 25%, banner 75%; logo + banner = 12 => logo = ?; banner = ?-->
+<div class="div1">
+    <div style="background-color: yellow;" class="logo col-3"></div>
+    <div style="background-color: blue;" class="banner col-9"></div>
+</div>
+<div class="div2">
+    <div style="background-color: blue;" class="col-3"></div>
+    <div style="background-color: red;" class="col-6"></div>
+    <div style="background-color: yellow;" class="col-3"></div>
+</div>
+<div class="div3">
+    <div class="col-1 div3com"></div>
+    <div class="col-1 div3com"></div>
+    <div class="col-1 div3com"></div>
+    <div class="col-1 div3com"></div>
+    <div class="col-1 div3com"></div>
+    <div class="col-1 div3com"></div>
+    <div class="col-1 div3com"></div>
+    <div class="col-1 div3com"></div>
+    <div class="col-1 div3com"></div>
+    <div class="col-1 div3com"></div>
+    <div class="col-1 div3com"></div>
+    <div class="col-1 div3com"></div>
+</div>
+</body>
+
+</html>
+
+<!-- 1.Grid view: trang được chia các thành cột giúp việc thiết kế trở nên dễ dàng hơn, giúp cho chúng ta dễ đặt các nội dung lên các vùng phù hợp của trang web. -->
+
