@@ -1,0 +1,36 @@
+.connect{
+    
+}
+.connect .email{
+    padding: 30px;
+    color: var(--color-white);
+    background-color: var(--color-black);
+}
+.connect .email .my-food{
+    color: var(--color-orange);
+}
+.connect .email p{
+    margin-top: 10px;
+}
+.connect .email .form-register{
+    display: flex;
+
+}
+.connect .email input{
+    outline: none;
+    margin-top: 10px;
+    padding: 10px;
+    width: 90%;
+    border-radius: 4px;
+}
+.connect .email .regis-btn{
+    border-radius: 4px;
+    margin-top: 10px;
+    margin-left: 5px;
+    color: var(--color-white);
+    height: 50px;
+    background-color: var(--color-green2);
+    outline: none;
+    padding: 3px;
+    cursor: pointer;
+}

@@ -1,0 +1,59 @@
+#main{
+     
+}
+.section{
+    background-color: var(--color-white);
+    margin:  30px 60px;
+
+}
+.section .section-title{
+    
+    display: flex;
+    justify-content: space-between;
+    margin: 0 30px;
+}
+.section .section-title .title{
+    margin-top: 30px;
+
+}
+.section .section-title .btn-sec{
+    margin-top: 30px;
+    border: none;
+    background-color: var(--color-orange);
+    color: var(--color-white);
+    width: 100px;
+    cursor: pointer;
+    margin-right: 30px;
+    border-radius: 3px;
+}
+.section .section-main{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section .section-main .item {
+    box-shadow: .5px .5px .5px .5px lightgrey;
+    border-radius: 3px;
+    margin: 30px;
+    width: 15%;
+    cursor: pointer;
+}
+.section .section-main .item img{
+    width: 100%;
+    height: 170px;
+}
+.name-item{
+    font-size: 20px;
+}
+.item-price{
+    display: flex;
+    gap:5px
+}
+.img-section{
+    width: 100%;
+    height: 600px;
+    background-image: url(../img/banner_item1.jpg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    
+}
+ 

@@ -1,0 +1,45 @@
+@import url(../Baicuoikhoa/style/colors.css);
+@import url(../Baicuoikhoa/style/connect.css);
+*{
+    padding: 0;
+    margin: 0;
+}
+.connect-title{
+    text-align: center;
+}
+.background-connect{
+    width: 100%;
+    height: 700px;
+}
+.my-form{
+    background-color: var(--color-white);
+    z-index: 6;
+    position: absolute;
+    top: 120px;
+    left: 400px;
+    border-radius: 3px;
+    width: 500px;
+    height: 466px;
+    padding: 30px;
+}
+.my-form input{
+    border: 1px solid #ccc;
+    outline: none;
+    padding: 5px;
+    border-radius: 3px;
+    width: 80%;
+}
+.my-form textarea{
+    border: 1px solid #ccc;
+}
+.my-btn{
+    position: relative;
+    display: block;
+    padding: 10px;
+    border: 1px solid #ccc;
+    cursor: pointer;
+    background-color: var(--color-green2);
+    color: var(--color-white);
+    border-radius: 3px;
+    margin-top: 3px;
+}
