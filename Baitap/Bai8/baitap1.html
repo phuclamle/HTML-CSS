@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+</head>
+<style>
+    *{
+         margin: 0;
+         padding: 0;
+    }
+    .header{
+        background-color: #0000009b;
+        display: flex;
+        justify-content: space-between;
+        height: 50px;
+    }
+    .header .right{
+        margin-left: 20px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        height: 100%;
+        width: 30%;
+    }
+    .header a{
+        text-decoration: none;
+        height: 100%;
+        line-height: 50px;
+        color: #ccc;
+        padding:0px 10px;
+    }
+    .header a:hover{
+        background-color: black;
+        color: #fff;
+    }
+    .header .left {
+        display: flex;
+        align-items: center;
+        color: #ccc;
+        margin-right: 10px;
+    }
+    .header .left:hover{
+        cursor: pointer;
+        color: #fff;
+    }
+    .main-left{
+        float: left;
+        background-color: lightgray;
+        width: 20%;
+        height: 500px;
+    }
+    .main-left a{
+        display: block;
+        text-decoration: none;
+        text-align: center;
+        color: blue;
+        margin: 20px;
+    }
+    .main{
+        float: left;
+        width: 60%;
+    }
+    hr{
+        margin-top: 10px;
+    }
+    .main-right{
+        float: left;
+        width: 20%;
+        background-color: lightgray;
+        height: 500px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .main-right .div1{
+        margin-top: 30px;
+        display: block;
+        border: 1px solid  #ccc;
+        background-color: aliceblue;
+        width: 80%;
+        height: 70px;
+        text-align: center;
+        line-height: 70px;
+    }
+    .clear{
+        clear: both;
+    }
+    .footer{
+        background-color: #000;
+        color: #fff;
+        text-align: center;
+        height: 30px;
+        line-height: 30px;
+    }
+    
+    @media only screen and (max-width:700px) {
+        .main-left,.main,.main-right{
+            width: 100%;
+        }
+        .main-left,.main-right{
+            height: 200px;
+        }
+    }
+</style>
+<body>
+    <div class="header">
+        <div class="right">
+        <a href="">Logo</a>
+        <a href="">Home</a>
+        <a href="">About</a>
+        <a href="">Projects</a>
+        <a href="">Contact</a>
+        </div>
+        <div class="left">
+            <i class="fa-solid fa-right-to-bracket"></i>
+            Login
+        </div>
+    </div>
+    <div class="main-left">
+        <a href="">Link</a>
+        <a href="">Link</a>
+        <a href="">Link</a>
+    </div>
+    <div class="main">
+       <div class="main-top">
+        <h1>Welcome</h1>
+        <p> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Cumque aspernatur accusantium distinctio iure laudantium obcaecati, sit, minus molestias quam possimus officiis recusandae illum itaque repellendus quasi amet exercitationem, omnis nihil.
+         Minus magnam sequi facere a velit ipsum non, voluptas modi, labore cupiditate optio dolores qui voluptates fugiat placeat recusandae. Odio possimus error ut ducimus vel doloribus tenetur est, perspiciatis aliquam.
+         Veritatis quia explicabo ipsa debitis eius ipsam incidunt ipsum at sunt, laudantium vero dolorem, impedit cum, numquam iure sit itaque aliquam inventore natus fuga exercitationem mollitia accusamus modi beatae? Facere!
+         Amet, pariatur. Aliquam harum eaque, esse culpa consequatur delectus illo est eveniet suscipit voluptatum. Quam fuga vitae possimus impedit sint, velit earum dolorum tempore id quasi odit esse libero optio!
+         Suscipit qui voluptatum quam sapiente facilis, praesentium a voluptatibus quisquam corrupti alias facere iure doloremque esse laborum quis cupiditate est. Repellat inventore consequatur vitae sunt officiis optio atque voluptatem? Eos?
+         Impedit reiciendis esse laboriosam quasi blanditiis! Nihil totam numquam maxime tempora, quas a ut perferendis corrupti natus soluta, repellendus ipsam ea fuga nemo ab excepturi harum saepe ratione unde placeat?
+         </p>
+       </div>
+       <hr style="color: lightgray;">
+       <div class="main-bottom">
+        <h1>Test</h1>
+        <p>Lorem Ipsum...</p>
+       </div>
+
+    </div>
+    <div class="main-right">
+        <div class="div1">ADS</div>
+        <div class="div1">ADS</div>
+    </div>
+    <div class="clear">
+
+    </div>
+    <div class="footer">
+        Footer Text
+    </div>
+</body>
+</html>
