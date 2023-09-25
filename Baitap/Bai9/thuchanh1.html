@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>
+			CSS grid-row-gap Property
+		</title>
+		
+		<style>
+			.main {
+				display: grid;
+				grid-template-columns: auto auto auto;
+                /* đặt giá trị khoảng cách giữa các dòng */
+				grid-row-gap: 20px;
+				grid-column-gap: 20px;
+				background-color: green;
+				padding: 30px;
+			}
+			
+			.main > div {
+				background-color: white;
+				text-align: center;
+				padding: 15px;
+				font-size: 25px;
+			}
+		</style>
+	</head>
+	
+	<body>
+		<div class="main">
+			<div>G</div>
+			<div>E</div>
+			<div>E</div>
+			<div>K</div>
+			<div>S</div>
+		</div>
+	</body>
+</html>					

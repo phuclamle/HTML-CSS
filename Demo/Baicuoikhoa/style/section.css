@@ -25,6 +25,10 @@
     cursor: pointer;
     margin-right: 30px;
     border-radius: 3px;
+    transition: .5s;
+}
+.section .section-title .btn-sec:hover{
+    background-color: var(--color-green2);
 }
 .section .section-main{
     display: flex;
@@ -36,6 +40,10 @@
     margin: 30px;
     width: 15%;
     cursor: pointer;
+    transition: .5s;
+}
+.section .section-main .item:hover{
+    background-color: var(--color-grey2);
 }
 .section .section-main .item img{
     width: 100%;

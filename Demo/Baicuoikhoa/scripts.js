@@ -36,3 +36,11 @@ let scrollBar = document.getElementById('scrollBar')
     // }
     //)
 
+    //Price:
+    let item = document.querySelectorAll(".item");
+    let totaldished = document.querySelector(".total-dished")
+    
+    let total=0;
+     
+    
+
